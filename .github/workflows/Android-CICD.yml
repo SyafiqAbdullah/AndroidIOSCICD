@@ -22,7 +22,7 @@ jobs:
       run: cd android && chmod +x ./gradlew
       
     - name: Gradle Clean
-      run: cd android && gradlew clean
+      run: cd android && ./gradlew clean
       
     - name: Build with Gradle
       run: cd android && ./gradlew build
