@@ -18,8 +18,8 @@ jobs:
         distribution: 'adopt'
         cache: gradle
         
-    - name: Npm Install
-      run: npm install
+    - name: yarn Install
+      run: yarn install
 
     - name: Grant execute permission for gradlew
       run: cd android && chmod +x ./gradlew
